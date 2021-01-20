@@ -39,11 +39,10 @@ export function builtinsResolver(opts: NodePolyfillsOptions) {
   libs.set('zlib', require.resolve('../polyfills/zlib'));
   libs.set('tty', require.resolve('../polyfills/tty'));
   libs.set('domain', require.resolve('../polyfills/domain'));
-
+  libs.set('child_process', require.resolve('../polyfills/child_process'));
   // not shimmed
   libs.set('dns', EMPTY_PATH);
   libs.set('dgram', EMPTY_PATH);
-  libs.set('child_process', EMPTY_PATH);
   libs.set('cluster', EMPTY_PATH);
   libs.set('module', EMPTY_PATH);
   libs.set('net', EMPTY_PATH);

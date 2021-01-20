@@ -1,3 +1,9 @@
-dist
 dist-transpiled
 node_modules
+
+
+# IDE Specific
+.idea/
+.cache/
+.vscode/*
+!.vscode/launch.json

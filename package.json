@@ -1,5 +1,6 @@
 {
   "name": "rollup-plugin-node-polyfills",
+  "description": "fork from https://github.com/ionic-team/rollup-plugin-node-polyfills to support more polyfills",
   "version": "0.2.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -46,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ionic-team/rollup-plugin-node-polyfills.git"
+    "url": "git@github.com:gmetrixr/rollup-plugin-node-polyfills.git"
   }
 }
